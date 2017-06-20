@@ -1,0 +1,112 @@
+/* CSS Document */
+div{
+    background: #9EE580;
+}
+
+#headAD{
+    background-image: url("../images/valley.jpg");
+    width: 100%;
+    height: 120px;
+}
+
+#back_nav{/*第一栏标题*/
+    /*position: absolute;*/
+    height: 50px;
+    width: 100%;
+    background-color: #a4ce28;
+    float: left;
+}
+#back_nav img{
+    display: block;
+    float: right;
+}
+#showImg{
+    height: 580px;
+    clear: both;
+}
+#showCom{
+    /*position: absolute;*/
+    width: 100%;
+    height: 5000px;
+    background: #df1dc2;
+}
+
+#introduce_classify{
+    margin-left: 5%;
+    /*第二标题栏 离左边 的相对距离*/
+}
+#nav li{
+    display: block;
+    background: #d4fdbf;/*标题背景颜色*/
+    margin-right: 20px;
+    float: left;
+}
+#nav a{
+    font-size: 20px;
+    font-family: '微软雅黑';
+    color: #1124ff;/*标题 字 颜色*/
+    display: block;
+    width: 80px;/*标题内容长度，两个字80，四个字100*/
+    height: 50px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+#nav a:hover{ /*设置鼠标放在上面的颜色*/
+    border: solid 1px;
+    background-color: #BB33DD
+}
+#homeshow{
+    height: 40px;
+    background-color: black;
+    clear: both;
+}
+#navigationF{
+    /*第二个标题栏的 DIV*/
+    height: 50px;
+    float: right;
+    margin-right: 15%;
+    background: #0f13e8;/*边框颜色*/
+}
+#nav2 li{
+    display: block;
+    background: #d4fdbf;/*标题背景颜色*/
+    /*    width: 8%;*/
+    /*    margin-right: 20px;*/
+    float: left;
+}
+#nav2 a{
+    font-size: 20px;
+    font-family: '微软雅黑';
+    color: #1124ff;/*标题 字 颜色*/
+    display: block;
+    width: 80px;
+    height: 50px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+#nav2 a:hover{ /*设置鼠标放在上面的颜色*/
+    border: solid 1px;
+    background-color: #BB33DD
+}
+#showImgBlock{/*三个按钮*/
+    background: red;
+    margin: 0 auto;
+    width: 150px;
+    height: 3px;
+    position: absolute;
+    left: 0;right: 0;top: 500px;bottom: 0;
+    z-index:2;
+}
+#showImg img{
+    display: block;
+    width:100%; height:580px; position:absolute;
+    background: #808549; z-index:1;
+}
+#showImgBlock button{
+    width:50px; height:3px;background-image: url(../images/morning.jpg);
+    display: block;
+    float: left;
+    padding-left: 10px;
+}
